@@ -1,0 +1,13 @@
+[Unit]
+Description=Docker Registry Deamon
+
+[Service]
+Type=simple
+WorkingDirectory=/docker-registry
+ExecStart=/usr/local/bin/docker-compose up
+KillMode=process
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
