@@ -6,4 +6,4 @@ to install service :
         
         3. activate the launch of the service at boot: sudo systemctl enable docker-registry
         
-        4. start service : sudo systemctl start deluge
+        4. start service : sudo systemctl start docker-registry
